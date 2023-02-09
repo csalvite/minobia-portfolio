@@ -1,0 +1,60 @@
+.bar-header {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo and Name */
+.bar-header > figure {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.bar-header > figure > img {
+  width: 3rem;
+}
+
+/* Menu Home */
+.bar-header > menu {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+  font-size: 1.6rem;
+  align-items: center;
+}
+
+.bar-header > menu li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: background-color 300ms;
+}
+
+.bar-header > menu li:hover {
+  background-color: var(--bgColor2);
+}
+
+/* Btn Contact */
+.bar-header > button {
+  border: none;
+  background-color: var(--wordColor);
+  color: var(--aboutMebgColor);
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 300ms;
+}
+
+.bar-header > button:hover {
+  background-color: var(--bgColor2);
+  color: var(--wordColor);
+}
